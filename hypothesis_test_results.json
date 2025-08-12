@@ -1,0 +1,363 @@
+{
+  "hypothesis_1": {
+    "hypothesis": "H1: Night hours have higher fraud rates than day hours",
+    "test_type": "Z-test for proportions (one-tailed)",
+    "sample_sizes": {
+      "night": 1486393,
+      "day": 5997373
+    },
+    "fraud_rates": {
+      "night": 0.502835387411001,
+      "day": 0.12460588994548114
+    },
+    "test_statistic": 1032.5336476921916,
+    "p_value": 0.0,
+    "alpha": 0.05,
+    "reject_null": "True",
+    "effect_size": {
+      "cohens_h": 0.8549253674796338,
+      "interpretation": "Very large effect",
+      "difference": 0.3782294974655198
+    },
+    "confidence_interval": {
+      "lower": 0.3773833584549461,
+      "upper": 0.37907563647609355
+    },
+    "hourly_breakdown": [
+      {
+        "hour": 0,
+        "total_transactions": 155759,
+        "fraud_count": 41519,
+        "fraud_rate": 0.2665592357423969
+      },
+      {
+        "hour": 1,
+        "total_transactions": 280136,
+        "fraud_count": 165999,
+        "fraud_rate": 0.592565753776737
+      },
+      {
+        "hour": 2,
+        "total_transactions": 280472,
+        "fraud_count": 166025,
+        "fraud_rate": 0.5919485724065148
+      },
+      {
+        "hour": 3,
+        "total_transactions": 280031,
+        "fraud_count": 165621,
+        "fraud_rate": 0.5914380907828062
+      },
+      {
+        "hour": 4,
+        "total_transactions": 281466,
+        "fraud_count": 166418,
+        "fraud_rate": 0.5912543610951234
+      },
+      {
+        "hour": 5,
+        "total_transactions": 208529,
+        "fraud_count": 41829,
+        "fraud_rate": 0.2005908051158352
+      },
+      {
+        "hour": 6,
+        "total_transactions": 196875,
+        "fraud_count": 41622,
+        "fraud_rate": 0.21141333333333334
+      },
+      {
+        "hour": 7,
+        "total_transactions": 301176,
+        "fraud_count": 41318,
+        "fraud_rate": 0.13718888623263473
+      },
+      {
+        "hour": 8,
+        "total_transactions": 405312,
+        "fraud_count": 41523,
+        "fraud_rate": 0.10244700378967314
+      },
+      {
+        "hour": 9,
+        "total_transactions": 352451,
+        "fraud_count": 41522,
+        "fraud_rate": 0.11780928412743899
+      },
+      {
+        "hour": 10,
+        "total_transactions": 300516,
+        "fraud_count": 41410,
+        "fraud_rate": 0.1377963236566439
+      },
+      {
+        "hour": 11,
+        "total_transactions": 352499,
+        "fraud_count": 41857,
+        "fraud_rate": 0.11874359927262206
+      },
+      {
+        "hour": 12,
+        "total_transactions": 404942,
+        "fraud_count": 41716,
+        "fraud_rate": 0.10301722221947834
+      },
+      {
+        "hour": 13,
+        "total_transactions": 352556,
+        "fraud_count": 41829,
+        "fraud_rate": 0.1186449812228412
+      },
+      {
+        "hour": 14,
+        "total_transactions": 300152,
+        "fraud_count": 41665,
+        "fraud_rate": 0.1388130014126176
+      },
+      {
+        "hour": 15,
+        "total_transactions": 300554,
+        "fraud_count": 41705,
+        "fraud_rate": 0.1387604224199312
+      },
+      {
+        "hour": 16,
+        "total_transactions": 352379,
+        "fraud_count": 41407,
+        "fraud_rate": 0.11750700240366196
+      },
+      {
+        "hour": 17,
+        "total_transactions": 404657,
+        "fraud_count": 41423,
+        "fraud_rate": 0.10236570725330342
+      },
+      {
+        "hour": 18,
+        "total_transactions": 456393,
+        "fraud_count": 41400,
+        "fraud_rate": 0.09071129487086788
+      },
+      {
+        "hour": 19,
+        "total_transactions": 404823,
+        "fraud_count": 41786,
+        "fraud_rate": 0.10322041978840135
+      },
+      {
+        "hour": 20,
+        "total_transactions": 300832,
+        "fraud_count": 41188,
+        "fraud_rate": 0.13691362620997766
+      },
+      {
+        "hour": 21,
+        "total_transactions": 196566,
+        "fraud_count": 41049,
+        "fraud_rate": 0.20883062177589207
+      },
+      {
+        "hour": 22,
+        "total_transactions": 332961,
+        "fraud_count": 41431,
+        "fraud_rate": 0.12443199053342584
+      },
+      {
+        "hour": 23,
+        "total_transactions": 281729,
+        "fraud_count": 41457,
+        "fraud_rate": 0.14715205037465082
+      }
+    ],
+    "assumptions_met": true
+  },
+  "hypothesis_2": {
+    "hypothesis": "H2: Weekend fraud rate exceeds weekday rate by 25-40%",
+    "test_type": "Z-test for proportions (two-tailed)",
+    "sample_sizes": {
+      "weekend": 1929663,
+      "weekday": 5554103
+    },
+    "fraud_rates": {
+      "weekend": 0.19974575871538192,
+      "weekday": 0.19972207933486288
+    },
+    "actual_increase_percent": 0.011856165626700553,
+    "target_range": [
+      25,
+      40
+    ],
+    "in_target_range": "False",
+    "test_statistic": 0.07087931270978591,
+    "p_value": 0.9434938080243632,
+    "alpha": 0.05,
+    "reject_null": "False",
+    "practical_significance": "False",
+    "effect_size": {
+      "cohens_h": 5.922802077407141e-05,
+      "interpretation": "Small effect",
+      "difference": 2.3679380519031623e-05
+    },
+    "confidence_interval": {
+      "lower": -0.0006311200391152494,
+      "upper": 0.0006784788001533127
+    },
+    "day_of_week_breakdown": [
+      {
+        "day_of_week": 0,
+        "total_transactions": 1206797,
+        "fraud_count": 241086,
+        "fraud_rate": 0.19977344988428045,
+        "day_name": "Monday",
+        "is_weekend": false
+      },
+      {
+        "day_of_week": 1,
+        "total_transactions": 1207241,
+        "fraud_count": 241146,
+        "fraud_rate": 0.19974967715642528,
+        "day_name": "Tuesday",
+        "is_weekend": false
+      },
+      {
+        "day_of_week": 2,
+        "total_transactions": 1208750,
+        "fraud_count": 241475,
+        "fraud_rate": 0.19977249224405377,
+        "day_name": "Wednesday",
+        "is_weekend": false
+      },
+      {
+        "day_of_week": 3,
+        "total_transactions": 964723,
+        "fraud_count": 192651,
+        "fraud_rate": 0.19969566393669477,
+        "day_name": "Thursday",
+        "is_weekend": false
+      },
+      {
+        "day_of_week": 4,
+        "total_transactions": 966592,
+        "fraud_count": 192919,
+        "fraud_rate": 0.1995867956697345,
+        "day_name": "Friday",
+        "is_weekend": false
+      },
+      {
+        "day_of_week": 5,
+        "total_transactions": 962633,
+        "fraud_count": 192009,
+        "fraud_rate": 0.1994623080654829,
+        "day_name": "Saturday",
+        "is_weekend": true
+      },
+      {
+        "day_of_week": 6,
+        "total_transactions": 967030,
+        "fraud_count": 193433,
+        "fraud_rate": 0.20002792054021074,
+        "day_name": "Sunday",
+        "is_weekend": true
+      }
+    ],
+    "assumptions_met": true
+  },
+  "hypothesis_3": {
+    "hypothesis": "H3: Fraud amounts show bimodal distribution in extreme percentiles",
+    "sample_size": 1494719,
+    "amount_statistics": {
+      "mean": 118773.58987142063,
+      "median": 5626.06,
+      "std": 347542.93308619445,
+      "min": 0.01,
+      "max": 6253152.62,
+      "skewness": 7.070786797635986,
+      "kurtosis": 75.0093891469062
+    },
+    "percentile_analysis": {
+      "thresholds": {
+        "p1": 0.76,
+        "p95": 704046.2429999993
+      },
+      "group_counts": {
+        "Middle (1-95%)": 1404986,
+        "High (>95%)": 74736,
+        "Low (<1%)": 14997
+      },
+      "group_proportions": {
+        "Middle (1-95%)": 0.9399666425595714,
+        "High (>95%)": 0.05000003345110352,
+        "Low (<1%)": 0.010033323989325084
+      },
+      "extreme_concentration": 0.060033357440428606
+    },
+    "dip_test": {
+      "statistic": 0.008769897710914918,
+      "p_value": 0.0,
+      "reject_null": true
+    },
+    "chi_square_concentration": {
+      "statistic": 0.1677561880875996,
+      "p_value": 0.9195433470736994,
+      "reject_null": "False",
+      "observed": [
+        14997,
+        1404986,
+        74736
+      ],
+      "expected": [
+        14947.19,
+        1405035.8599999999,
+        74735.95
+      ]
+    },
+    "chi_square_independence": {
+      "statistic": 564681.0425786,
+      "p_value": 0.0,
+      "reject_null": "True",
+      "contingency_table": {
+        "false": {
+          "High (>95%)": 180636,
+          "Low (<1%)": 0,
+          "Middle (1-95%)": 5808411
+        },
+        "true": {
+          "High (>95%)": 193553,
+          "Low (<1%)": 74926,
+          "Middle (1-95%)": 1226240
+        }
+      }
+    },
+    "normality_tests": {
+      "shapiro_wilk": {
+        "statistic": 0.9689125141031909,
+        "p_value": 1.398454884384807e-31
+      },
+      "jarque_bera": {
+        "statistic": 68665.65545323514,
+        "p_value": 0.0
+      }
+    },
+    "fraud_rates_by_group": {
+      "High (>95%)": {
+        "total_transactions": 374189,
+        "fraud_count": 193553,
+        "fraud_rate": 0.5172599942809649
+      },
+      "Low (<1%)": {
+        "total_transactions": 74926,
+        "fraud_count": 74926,
+        "fraud_rate": 1.0
+      },
+      "Middle (1-95%)": {
+        "total_transactions": 7034651,
+        "fraud_count": 1226240,
+        "fraud_rate": 0.17431426235644099
+      }
+    },
+    "supporting_tests": 2,
+    "total_tests": 3,
+    "strong_evidence": true,
+    "alpha": 0.05
+  }
+}
